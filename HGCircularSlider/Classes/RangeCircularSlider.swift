@@ -184,7 +184,7 @@ open class RangeCircularSlider: CircularSlider {
      * The last touched thumb
      * By default the value is none
      */
-    fileprivate var selectedThumb: SelectedThumb = .none
+    open var selectedThumb: SelectedThumb = .none
     
     /**
      Checks if the touched point affect the thumb
